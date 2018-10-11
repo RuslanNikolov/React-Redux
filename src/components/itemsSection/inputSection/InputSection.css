@@ -1,0 +1,21 @@
+.InputSection {
+    background: url('https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&h=350');
+    background: no-repeat cover;
+    z-index: 1;
+    height: 17.23vw;
+    position: relative;
+    box-shadow: 0 3px 15px #403F3F;
+}
+
+.InputSection .gradient {
+    background: linear-gradient(to left, rgba(225, 225, 26, 0.65),
+                                            rgba(136, 207,33,0.67));
+    opacity: 0.8;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.InputSection .Title {
+    z-index: 10;
+}

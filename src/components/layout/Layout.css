@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Layout {
+    height:100vw;
+    width:100vw;
+    background: radial-gradient(white,lightgray);
+  
+}
+
+.Layout > div {
+    display: inline-block;
+    height: 56.25vw;
+
+}
+.Layout > div.NotesSection {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 25.625vw;
+    z-index: 100;
+    box-shadow: 0 0 20px #3E3E3E;
+    background-image: linear-gradient(to right, #FFFFFF ,#EEFACC);
+}
+.Layout > div.ItemsSection {
+    position: absolute;
+    top:0;
+    left: 25.625vw;
+    z-index: 3;
+    width: 43.125vw;
+    background: linear-gradient(to left, rgba(225, 225, 26, 0.65),
+                                            rgba(136, 207,33,0.67))
+}
+.Layout > div.JokesSection {
+    position: absolute;
+    top:0;
+    right:0;
+    width: 31.25vw;
+    background-image: linear-gradient(to left, #FFFFFF ,#EEFACC);
+    
+}

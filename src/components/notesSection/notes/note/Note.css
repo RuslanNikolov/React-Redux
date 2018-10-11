@@ -1,0 +1,55 @@
+.Note {
+    position: relative;
+    z-index: 1000;
+    width: 105%;
+    height: 8.43vw;
+    background-color: #E5F6B6;
+    margin-bottom: 1.04vw;
+    margin-top: 1.04vw;
+    -webkit-box-shadow: -7px 7px 10px #888888;
+    box-shadow: -7px 7px 10px #888888;
+
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: all 0.25s ease-out;
+    border-radius: 0.37vw;
+    overflow: hidden;
+   
+}
+.Note:hover {
+    cursor: pointer;
+    -webkit-transform: translate(2.5%, -2.5%);
+    -ms-transform: translate(2.5%, -2.5%);
+     transform: translate(2.5%, -2.5%);
+     background-color: #F5FFDA;
+}
+.Note:hover .trash-icon {
+    opacity: 0.9;
+}
+
+.Note .trash-icon {
+    width: 2.18vw;
+    opacity: 0.5;
+    position: absolute;
+    top: 7%;
+    right: 5%;
+    transition: all 0.25s ease-out;
+}
+
+.Note .note-title {
+   font-size: 2.08vw;
+   color: #343434;
+   margin-left: 5%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+
+    
+}
+
+.Note .note-text {
+   font-size: 1.3vw;
+   color: #7A7878;
+   margin: 0 0 0 5%;
+
+}

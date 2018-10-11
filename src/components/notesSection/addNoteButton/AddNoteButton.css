@@ -1,0 +1,25 @@
+.AddNoteButton > img.PlusIcon {
+    width: 5vw;
+    margin-left: 38%;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+.AddNoteButton > img.PlusIcon:hover {
+    cursor: pointer;
+   -webkit-transform: scale(1.1,1.1);
+       -ms-transform: scale(1.1,1.1);
+           transform: scale(1.1,1.1);
+   opacity: 1;
+   color: blue;
+}
+
+.AddNoteButton > img.PlusIcon:active {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+}

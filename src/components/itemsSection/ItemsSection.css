@@ -1,0 +1,6 @@
+.ItemsSection {
+    box-shadow: 0 0 20px #3E3E3E;
+    position: relative;
+    z-index:10;
+    overflow: auto;
+}

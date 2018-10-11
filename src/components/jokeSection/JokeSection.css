@@ -1,0 +1,46 @@
+.JokesSection .Joke {
+    width: 27.29vw;
+    margin: 2.91vw auto 4.68vw 2.23vw;
+    text-align: left;
+    font-size: 2.56vw;
+    color: #2ADF78;
+    transform: skewY(2vw);
+}
+
+.JokesSection .more-jokes {
+    margin: 2.1vw auto auto 6.2vw;
+    border: none;
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding: 0.83vw 2.65vw;
+    border-radius: 0.5vw;
+    transition: all 0.2s ease-in-out;
+    border: #2ADF78 solid 2px;
+    color: #2ADF78;
+    background-color: transparent;
+
+
+
+}
+
+.JokesSection .more-jokes:hover {
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: #2ADF78;
+    color: white;
+}
+
+.JokesSection .Categories {}
+
+.JokesSection .good-mood {
+    font-size: 1.5vw;
+    margin-left: 37%;
+}
+
+.JokesSection .hear-a-joke {
+    font-size: 1.8vw;
+    color: darkgray;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #2ADF78;
+}

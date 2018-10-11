@@ -1,0 +1,43 @@
+
+
+.List>img {
+    cursor: pointer;
+   margin-top: 2vw;
+    margin-left: 19.06vw;
+    width: 5vw;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+
+    -webkit-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+
+}
+
+.List>img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.12, 1.12);
+    -ms-transform: scale(1.12, 1.12);
+    transform: scale(1.12, 1.12);
+}
+
+.List>img:active {
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.List .add {
+    color: gray;
+    font-size: 1.2vw;
+    margin-left: 43.3%;
+    margin-top: 0;
+}
+
+.no-list {
+    margin-left: 44%;
+    margin-top: 8%;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,54 @@
+.Categories {
+    position: relative;
+}
+
+.Categories .category{
+    position: absolute;
+    border: none;
+    font-size: 1.8vw;
+    font-weight: bold;
+    padding: 0.4vw 1.6vw;
+    border-radius: 0.22vw;
+    margin-left: 0.6vw;
+    transition: all 0.2s ease-in-out;
+    white-space: normal;
+    border: #2ADF78 solid 2px;
+    color: #2ADF78;
+    background-color: white;
+}
+.Categories .category:nth-child(odd){
+   left: 0.7vw;
+}
+
+.Categories .category:nth-child(even){
+    right: 0.7vw;
+}
+
+.Categories .category:nth-child(1),
+.Categories .category:nth-child(2){
+    top: 4vw;
+ }
+ .Categories .category:nth-child(3),
+.Categories .category:nth-child(4){
+    top: 8vw;
+ }
+ .Categories .category:nth-child(5),
+.Categories .category:nth-child(6){
+    top: 12vw;
+ }
+ .Categories .category:nth-child(7),
+.Categories .category:nth-child(8){
+    top: 16vw;
+ }
+ 
+
+
+.Categories .category:hover {
+    cursor: pointer;
+    
+    border: 2px solid transparent;
+    background-color: #2ADF78;
+    color: white;
+    
+    
+}

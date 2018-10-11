@@ -1,0 +1,8 @@
+.Notes {
+    margin-top: 1.2vw;
+}
+.Notes .empty-list-reminder {
+    font-size: 1.3vw;
+    color: gray;
+    margin-left:15%;
+}
